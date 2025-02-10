@@ -1,7 +1,7 @@
 
 
 function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
-    const[backgroundColor, setBackgroundColor] = useState("pink");
+    const[backgroundColor, setBackgroundColor] = useState("pink"); // set up hook
 
     const onButtonClick = color => () => {
       setBackgroundColor(color);
